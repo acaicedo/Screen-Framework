@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="460.0" xmlns:fx="http://javafx.com/fxml" fx:controller="multiplescreenframework.ButtonScreenController">
+  <children>
+    <HBox prefHeight="85.0" prefWidth="306.0" spacing="20.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="66.0" AnchorPane.topAnchor="70.0">
+      <children>
+        <Button id="choiceBtn" fx:id="checkBtn" mnemonicParsing="false" onMouseClicked="#clicked" prefWidth="137.0" text="Go to CheckBox" />
+        <Button fx:id="lblBtn" mnemonicParsing="false" onMouseClicked="#clicked" prefWidth="107.0" text="Go to Label" />
+      </children>
+      <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+      </padding>
+    </HBox>
+  </children>
+</AnchorPane>

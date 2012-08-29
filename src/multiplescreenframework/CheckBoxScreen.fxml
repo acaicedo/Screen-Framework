@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="460.0" xmlns:fx="http://javafx.com/fxml" fx:controller="multiplescreenframework.CheckBoxScreenController">
+  <children>
+    <HBox alignment="CENTER" layoutX="38.0" layoutY="55.0" prefHeight="100.0" prefWidth="383.0" spacing="10.0">
+      <children>
+        <CheckBox fx:id="buttonsCB" mnemonicParsing="false" onMouseClicked="#clicked" text="Go to Buttons" />
+        <CheckBox fx:id="labelsCB" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#clicked" text="Go to Labels" />
+      </children>
+      <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+    </HBox>
+  </children>
+</AnchorPane>
